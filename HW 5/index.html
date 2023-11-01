@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* INCASE IT DOESNT WORK WITH A LINKED CSS */
+
+        body{
+            font-family: sans-serif;
+            text-align: center;
+            width: 25%;
+            margin:auto;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+    <title>MY FORM</title>
+</head>
+<body>
+    <!-- CHANGE THE METHOD HERE, IT WORKS FOR BOTH -->
+    <form action="viewer.php" method="GET">
+        <p>Please select the grade for this assignemnt</p>
+        <input type="radio" name="myGrade" id="radio1" value="A+">
+        <label for="radio1">A+</label><br>
+        <input type="radio" name="myGrade" id="radio2" value="A">
+        <label for="radio2">A</label><br>     
+        <input type="radio" name="myGrade" id="radio3" value="A-+">
+        <label for="radio3">A-+</label><br>
+
+        <p>What "programming languages" do you know </p>
+        <input type="checkbox" name="languages[]" id="check1" value="CSS">
+        <label for="check1">CSS</label><br>
+        <input type="checkbox" name="languages[]" id="check2" value="MATLAB">
+        <label for="check2">MATLAB</label><br>
+        <input type="checkbox" name="languages[]" id="check3" value="Python">
+        <label for="check3">Python</label><br> 
+
+        <p>Select your favorite color</p>
+        <select id="sl" name="color">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+          </select> <br>
+
+
+          <p>Which of these are Opeating Systems?</p>
+          <p>(Theres no logic to check to see if you selected an OS)</p>
+          <select name="slMultiple[]" id="OS" multiple>
+            <option value="Windows">Windows</option>
+            <option value="Mac">Mac</option>
+            <option value="Linux">Linux</option>
+            <option value="Bannana">Bannana</option>
+          </select><br><br>
+
+
+          <input type="submit" value="Submit">
+
+    </form> 
+
+</body>
+</html>

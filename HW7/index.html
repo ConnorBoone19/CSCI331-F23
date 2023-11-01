@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calc.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="innerHeader">
+        <a id="flex-item" href="https://csci331.cs.montana.edu/~h49h386/">GO AWAY</a>
+
+        <a id="flex-item" href="html/virus.html">Get a virus</a>
+
+        <a id="flex-item" href="http://www.google.com" target="_blank">Google</a>
+    </div>
+  
+    <div id="imgDiv">
+        <picture>
+            <source  srcset="images/machine640w.jpg" media="(max-width: 600px)">
+            <img src="images/machine1280w.jpg" alt="1280 image" style="width: auto;">
+        </picture>
+ 
+    </div>
+    <div id="operations">
+        <input type="number" name="num1" id="num1">
+        <div class="break"></div>
+        <p id="selectedOperation">Click a button</p>
+        <div class="break"></div>
+        <input type="number" name="num2" id="num2">
+        <div class="break"></div>
+        <p >=</p>
+        <p id="answer">Answer</p>
+    </div>
+
+    <div id="operands">
+        <button id="plus">+</button>
+        <button id="minus">-</button>
+        <button id="div">÷</button>
+        <button id="times">x</button>
+        <button id="GTOE" value="test1">≥</button>
+        <button id="LTOE" value="test2">≤</button>
+    </div>
+    <script src="js/calc.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+#apiData{
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+#buttons{
+    margin: auto;
+    position: relative;
+    text-align: center; 
+}
+.Person{
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue; 
+}

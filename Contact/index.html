@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <p>Use this form to send me an email.</p>
+
+    <form action="contact.php" method="POST">
+      <label for="cn">Your name</label><br />
+      <input type="text" id="cn" name="contactname" /><br />
+      <label for="ea">Email Address</label><br />
+      <input type="email" id="ea" name="emailaddress" /><br />
+      <label for="sl">Subject</label><br />
+      <select id="sl" name="subjectline">
+        <option value="school">School</option>
+        <option value="consulting">Consulting</option>
+        <option value="personal">Personal</option>
+      </select> <br>
+      <label for="em">Email</label><br />
+      <textarea id="em" name="emailmessage"></textarea><br />
+      <input type="submit" name="submitbtn" id="sb" value="SEND" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/* FLex is up and down 
+grid is left and right */
+
+
+@media screen and (max-width: 600px){
+   #operands{
+    background-color: black;
+    grid-template-rows: auto auto ; 
+    height: 250px
+    
+   } 
+   #operations{
+    flex-wrap: wrap;
+
+   }
+   .stationary{
+    text-align: left;
+    }
+
+    button{
+        font-size: xx-large;
+    }
+    #GTOE, #LTOE{
+        display: none;
+    }
+    .innerHeader{
+        flex-direction: column;
+    }
+    .innerHeader a{
+        width:100%;
+        margin: auto;
+        text-align: center;
+    }
+
+
+}
+
+#operands{
+
+    display: grid;
+    grid-template-columns:auto;
+    grid-auto-flow: column;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    height: 75px;
+}
+
+
+#screen{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}   
+
+#operations{
+    display: flex;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+input{
+    height: 50%;
+    width: 30%;
+  }
+
+
+.innerHeader{
+    text-align: center;
+    display: flex;
+    background-color: pink;
+}
+
+.innerHeader a{
+    border: 2px solid black; 
+    width: 100%;
+    
+}
+.innerHeader a:hover{
+    background-color: antiquewhite;
+}

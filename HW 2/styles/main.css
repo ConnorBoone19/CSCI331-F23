@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: darkslategray;
+}
+h2{
+    text-align: center;
+    background-color: yellow;
+}
+h3{
+    text-align: center;
+}
+.my-grid{
+    display: flex;
+}
+.column{
+    width: 50%;
+    border: 2px solid black;
+    padding: 5px;
+}
+table, td, th{
+    text-align: center;
+    border-collapse:collapse;
+    border: 1px solid black;
+}
+
+.TorTh{
+    color: #e0f6ef;
+    background-color: #6ab099;
+}
+form{
+    text-align: center;
+    padding: 20px;
+}
+input{
+    display: flex;
+}
+img{
+    width: 200px;
+    border: #6ab099 solid 10px;
+    display: flex;
+    padding: 20px;
+}
+img:hover{
+    background-color: lightblue;
+}

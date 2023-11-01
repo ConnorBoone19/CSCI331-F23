@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h1{
+            margin: auto;
+            text-align: center;
+            padding: 15px;
+        }
+        #apiData{
+            margin: auto;
+            text-align: center;
+            background-color: pink;
+            width: 50%;
+        }
+        #buttons{
+            margin: auto;
+            position: relative;
+            text-align: center; 
+        }
+        .Person{
+            margin: auto;
+            text-align: center;
+            background-color: pink;
+         }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>LAMP STACK</h1>
+    <div id="apiData">
+        <img src="https://randomuser.me/api/portraits/" alt="Image here">
+    </div>
+    <div id="buttons">
+        <button id="generate" class="btn">Generate another person</button>
+        <form action="main.php" method="get" value="Add them!">
+        </form>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
